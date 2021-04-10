@@ -156,7 +156,7 @@ class CLI
         if (isset($args[0])) {
             $this->command = \array_shift($args);
         } else {
-            throw new Exception('Missing command');
+            /* throw new Exception('Missing command'); */
         }
 
         $output = [];
